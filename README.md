@@ -20,25 +20,6 @@ This project demonstrates core concepts in agent-based AI systems, modular reaso
 
 ---
 
-## 📂 Project Structure
-
-
-multi-agent-rag/
-│
-├── src/
-│ ├── retriever.py
-│ ├── reasoner.py
-│ │ └── utils.py
-│
-├── data/
-│ └── docs.txt
-│
-├── main.py
-├── requirements.txt
-└── README.md
-
-
----
 
 ## ▶️ How to Run
 
