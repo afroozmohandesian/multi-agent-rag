@@ -16,10 +16,9 @@ It separates responsibilities into:
 
 ```bash
 python main.py
-
+```bash
 ## Example
 
-```bash
 You: What causes floods?
 
 Agent:
@@ -27,5 +26,5 @@ Based on retrieved information...
 
 
 ## Architecture
-```bash
+
 Retriever → Context → Reasoner → Answer
