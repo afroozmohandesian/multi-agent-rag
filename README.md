@@ -1,28 +1,23 @@
 # 🤖 Multi-Agent RAG Assistant
 
-## Overview
-This project implements a simple multi-agent Retrieval-Augmented Generation (RAG) system.
+## 🧠 Overview
+This project implements a **multi-agent Retrieval-Augmented Generation (RAG) system** with a modular architecture.
 
-It separates responsibilities into:
-- Retriever Agent → fetch relevant documents
-- Reasoner Agent → generate answers based on context
+Instead of relying on a single model, the system separates responsibilities into independent agents:
+- **Retriever Agent** → retrieves relevant documents from a knowledge base  
+- **Reasoner Agent** → generates structured answers based on retrieved context  
 
-## Features
-- Vector search using FAISS
-- Embeddings via SentenceTransformers
-- Modular agent design
+This design demonstrates core concepts in **agent-based AI systems, modular reasoning, and knowledge retrieval pipelines**.
 
-## Run
+---
 
-```bash
-python main.py
+## ✨ Features
+- 🔎 Vector search using FAISS  
+- 🧩 Embeddings via SentenceTransformers  
+- 🤖 Modular agent-based design  
+- 📚 Context-aware response generation  
+- ⚡ Lightweight and extensible architecture  
 
-Example
+---
 
-You: What causes floods?
-Agent: Based on retrieved information...
-
-
-Architecture
-
-Retriever → Context → Reasoner → Answer
+## 📂 Project Structure
