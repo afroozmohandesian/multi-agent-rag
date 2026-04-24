@@ -17,12 +17,15 @@ It separates responsibilities into:
 ```bash
 python main.py
 
-Example
+## Example
+
+```bash
 You: What causes floods?
 
 Agent:
 Based on retrieved information...
 
-Architecture
 
+## Architecture
+```bash
 Retriever → Context → Reasoner → Answer
